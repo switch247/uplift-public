@@ -1,5 +1,4 @@
-# uplift-public
-
+# UpLift
 
 ### Client Folder
 
@@ -40,16 +39,16 @@ The client-side of "Uplift" is built with Vite, leveraging modern JavaScript and
 2. Access the application at `http://localhost:3000`.
 
 #### Screenshots
-- [Screenshot 1](./screenshots/uplift1.png): Description of the screenshot.
-- [Screenshot 2](./screenshots/uplift2.png): Description of the screenshot.
-- [Screenshot 3](./screenshots/uplift3.png): Description of the screenshot.
-- [Screenshot 4](./screenshots/uplift4.png): Description of the screenshot.
-- [Screenshot 5](./screenshots/uplift5.png): Description of the screenshot.
-- [Screenshot 6](./screenshots/uplift6.png): Description of the screenshot.
-- [Screenshot 7](./screenshots/uplift7.png): Description of the screenshot.
-- [Screenshot 8](./screenshots/uplift8.png): Description of the screenshot.
-- [Screenshot 9](./screenshots/uplift9.png): Description of the screenshot.
-- [Screenshot 10](./screenshots/uplift10.png): Description of the screenshot.
+- ![Screenshot 1](screenshots/uplift1.png): Description of the screenshot.
+- ![Screenshot 2](screenshots/uplift2.png): Description of the screenshot.
+- ![Screenshot 3](screenshots/uplift3.png): Description of the screenshot.
+- ![Screenshot 4](screenshots/uplift4.png): Description of the screenshot.
+- ![Screenshot 5](screenshots/uplift5.png): Description of the screenshot.
+- ![Screenshot 6](screenshots/uplift6.png): Description of the screenshot.
+- ![Screenshot 7](screenshots/uplift7.png): Description of the screenshot.
+- ![Screenshot 8](screenshots/uplift8.png): Description of the screenshot.
+- ![Screenshot 9](screenshots/uplift9.png): Description of the screenshot.
+- ![Screenshot 10](screenshots/uplift10.png): Description of the screenshot.
 
 #### Deployment
 - Modify the Vite configuration (`vite.config.js`) as needed for production builds.
