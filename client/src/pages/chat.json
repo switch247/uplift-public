@@ -1,0 +1,163 @@
+[
+    {
+        "id": "clynftso70016n2hpzbqkj4hs",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 1 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso70017n2hpjmhf0s3p",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 1 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso70018n2hpr1dzt67n",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 2 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso70019n2hpd1hmzk91",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 2 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001an2hpmwa8iy4y",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 3 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001bn2hpw8z1sp96",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 3 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001cn2hpsdxik177",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 4 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001dn2hpjqdg2nzj",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 4 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001en2hpwg3klwfl",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 5 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001fn2hp611dwy3l",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 5 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001gn2hpug1c1ie7",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 6 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001hn2hpx9n6kzm3",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 6 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001in2hp7i2za9pd",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 7 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001jn2hp7bgpqfwu",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 7 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001kn2hp79urm3cq",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 8 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001ln2hpvs6fhv7o",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 8 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001mn2hpr61j0pxe",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 9 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001nn2hpyxgzyz2h",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 9 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001on2hp7joqjg5c",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftm9i0001n2hpivbddlnj",
+        "text": "Message 10 from user2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    },
+    {
+        "id": "clynftso7001pn2hp83wlm8ew",
+        "chatId": "clynftr55000jn2hpzv98b9ly",
+        "senderId": "clynftoh10005n2hpmotwy2rv",
+        "text": "Reply 10 from consultant2",
+        "createdAt": "2024-07-15T20:29:11.911Z",
+        "updatedAt": "2024-07-15T20:29:11.911Z"
+    }
+]

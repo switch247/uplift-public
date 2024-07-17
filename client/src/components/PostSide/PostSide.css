@@ -1,0 +1,14 @@
+.PostSide
+{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    height: 100vh;
+    overflow: auto;
+    padding: 10px;
+}
+
+.PostSide div{
+    background-color: whitesmoke;
+}

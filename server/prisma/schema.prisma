@@ -1,0 +1,187 @@
+// generator client {
+//   provider = "prisma-client-js"
+// }
+
+// datasource db {
+//   provider = "mongodb"
+//   url      = env("DATABASE_URL")
+// }
+
+// model Chat {
+//   id        String   @id @default(cuid()) @map("_id")
+//   members   String[]
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+// }
+
+// model Message {
+//   id        String   @id @default(cuid()) @map("_id")
+//   chatId    String
+//   senderId  String
+//   text      String
+//   createdAt DateTime @default(now())
+//   updatedAt DateTime @updatedAt
+// }
+
+// model Post {
+//   id        String   @id @default(cuid()) @map("_id")
+//   userId    String
+//   desc      String
+//   likes     String[]
+//   createdAt DateTime @default(now())
+//   image     String?
+//   updatedAt DateTime @updatedAt
+// }
+
+// model User {
+//   id             String           @id @default(cuid()) @map("_id")
+//   username       String           @unique
+//   password       String
+//   firstname      String
+//   lastname       String
+//   isAdmin        Boolean          @default(false)
+//   profilePicture String?
+//   coverPicture   String?
+//   about          String?
+//   country        String?
+//   followers      String[]
+//   following      String[]
+//   createdAt      DateTime         @default(now())
+//   updatedAt      DateTime         @updatedAt
+//   consultants    UserConsultant[]
+//   appointments   Appointment[] 
+// }
+
+// model Consultant {
+//   id             String           @id @default(cuid()) @map("_id")
+//   userId         String
+//   availableTimes AvailableTime[]
+//   appointments   Appointment[] // Relationship with Appointment model
+//   users          UserConsultant[]
+//   createdAt      DateTime         @default(now())
+//   updatedAt      DateTime         @updatedAt
+// }
+
+// model AvailableTime {
+//   id           String     @id @default(cuid()) @map("_id")
+//   consultantId String
+//   consultant   Consultant @relation(fields: [consultantId], references: [id])
+//   startTime    DateTime
+//   endTime      DateTime
+//   createdAt    DateTime   @default(now())
+//   updatedAt    DateTime   @updatedAt
+// }
+
+// model Appointment {
+//   id           String     @id @default(cuid()) @map("_id")
+//   userId       String
+//   user         User       @relation(fields: [userId], references: [id])
+//   consultantId String
+//   consultant   Consultant @relation(fields: [consultantId], references: [id])
+//   startTime    DateTime
+//   endTime      DateTime
+//   createdAt    DateTime   @default(now())
+//   updatedAt    DateTime   @updatedAt
+// }
+
+// model UserConsultant {
+//   id           String     @id @default(cuid()) @map("_id")
+//   userId       String
+//   rating       Float @default(0.0)
+//   user         User       @relation(fields: [userId], references: [id])
+//   consultantId String
+//   consultant   Consultant @relation(fields: [consultantId], references: [id])
+//   createdAt    DateTime   @default(now())
+//   updatedAt    DateTime   @updatedAt
+
+//   @@unique([userId, consultantId])
+// }
+
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Chat {
+  id        String   @id @default(cuid()) @map("_id")
+  members   String[]
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Message {
+  id        String   @id @default(cuid()) @map("_id")
+  chatId    String
+  senderId  String
+  text      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id        String   @id @default(cuid()) @map("_id")
+  userId    String
+  desc      String
+  likes     String[]
+  createdAt DateTime @default(now())
+  image     String?
+  updatedAt DateTime @updatedAt
+}
+
+model User {
+  id             String           @id @default(cuid()) @map("_id")
+  username       String           @unique
+  password       String
+  firstname      String
+  lastname       String
+  isAdmin        Boolean          @default(false)
+  isConsultant   Boolean          @default(false)  // New field to indicate if the user is a consultant
+  profilePicture String?
+  coverPicture   String?
+  about          String?
+  country        String?
+  followers      String[]
+  following      String[]
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+  consultant     Consultant?      // 1:1 relationship with Consultant
+  appointments   Appointment[] 
+}
+
+model Consultant {
+  id             String           @id @default(cuid()) @map("_id")
+  userId         String           @unique
+  user           User             @relation(fields: [userId], references: [id])
+  availableTimes AvailableTime[]
+  appointments   Appointment[]    // Relationship with Appointment model
+  createdAt      DateTime         @default(now())
+  updatedAt      DateTime         @updatedAt
+}
+
+model AvailableTime {
+  id           String     @id @default(cuid()) @map("_id")
+  consultantId String
+  consultant   Consultant @relation(fields: [consultantId], references: [id])
+  startTime    DateTime
+  endTime      DateTime
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
+
+model Appointment {
+  id           String     @id @default(cuid()) @map("_id")
+  userId       String
+  user         User       @relation(fields: [userId], references: [id])
+  consultantId String
+  consultant   Consultant @relation(fields: [consultantId], references: [id])
+  startTime    DateTime
+  endTime      DateTime
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+}
