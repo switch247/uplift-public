@@ -1,7 +1,5 @@
 # UpLift
 
-### Client Folder
-
 #### Overview
 The client-side of "Uplift" is built with Vite, leveraging modern JavaScript and React to provide a fast and responsive user experience.
 
